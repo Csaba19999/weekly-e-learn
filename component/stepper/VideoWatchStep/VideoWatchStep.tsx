@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import ReactPlayer from "react-player";
 
@@ -8,5 +6,15 @@ type IProps = Readonly<{
 }>;
 
 export default function VideoWatchStep(props: IProps) {
-  return <ReactPlayer url={props.src} controls width="100%" height="100%" />;
+  return (
+    <section style={{ margin: "12px" }}>
+      <ReactPlayer
+        url={props.src}
+        width="100%"
+        height="50vh"
+        controls={true}
+        playing={true}
+      />
+    </section>
+  );
 }
