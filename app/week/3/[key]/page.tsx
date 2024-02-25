@@ -30,7 +30,7 @@ export default function WeekThree() {
         Week 3
       </h1>
       <section className="bg-black w-full">
-        <HorizontalLinearStepper steps={steps} />
+        <HorizontalLinearStepper finish={<p></p>} steps={steps} />
       </section>
     </main>
   );
