@@ -1,5 +1,7 @@
-import React from "react";
-import ReactPlayer from "react-player";
+"use client";
+
+import dynamic from "next/dynamic";
+const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 type IProps = Readonly<{
   src: string;
@@ -7,14 +9,12 @@ type IProps = Readonly<{
 
 export default function VideoWatchStep(props: IProps) {
   return (
-    <section style={{ margin: "12px" }}>
-      <ReactPlayer
-        url={props.src}
-        width="100%"
-        height="50vh"
-        controls={true}
-        playing={true}
-      />
-    </section>
+    <ReactPlayer
+      url={props.src}
+      width="100%"
+      height="50vh"
+      controls={true}
+      playing={true}
+    />
   );
 }

@@ -1,24 +1,25 @@
 "use client";
 
-import * as React from "react";
 import Box from "@mui/material/Box";
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { useState } from "react";
 
 type ISteps = {
   steps: {
     label: string;
     element: React.ReactNode;
   }[];
+  finish: React.ReactNode;
 };
 
 export default function HorizontalLinearStepper(props: ISteps) {
   const { steps } = props;
-  const [activeStep, setActiveStep] = React.useState(0);
-  const [skipped, setSkipped] = React.useState(new Set<number>());
+  const [activeStep, setActiveStep] = useState(0);
+  const [skipped, setSkipped] = useState(new Set<number>());
 
   const isStepSkipped = (step: number) => {
     return skipped.has(step);
@@ -68,10 +69,10 @@ export default function HorizontalLinearStepper(props: ISteps) {
         })}
       </Stepper>
       {activeStep === steps.length ? (
-        <React.Fragment>
-          <Typography sx={{ mt: 2, mb: 1 }}>
-            GRATULÁLUNK! Befejezteted a hetet!
-          </Typography>
+        <div>
+          <Box sx={{ display: "flex", flexDirection: "column" }}>
+            {props.finish}
+          </Box>
           <Box sx={{ display: "flex", flexDirection: "row", pt: 2 }}>
             <Box sx={{ flex: "1 1 auto" }} />
             <Button
@@ -87,13 +88,16 @@ export default function HorizontalLinearStepper(props: ISteps) {
               Restart
             </Button>
           </Box>
-        </React.Fragment>
+        </div>
       ) : (
-        <React.Fragment>
-          <Typography sx={{ mt: 2, mb: 1 }}>
-            <p className="w-full mx-2 text-center font-semibold text-3xl py-6">{steps[activeStep].label}</p>
-            <div>{steps[activeStep].element}</div>
-          </Typography>
+        <div>
+          <Box sx={{ display: "flex", flexDirection: "column" }}>
+            <span className="w-full text-3xl text-neutral-800 font-semibold px-2 mx-2 py-10">
+              {steps[activeStep].label}
+            </span>
+            <span className="px-4">{steps[activeStep].element}</span>
+          </Box>
+
           <Box sx={{ display: "flex", flexDirection: "row", pt: 2 }}>
             <Button
               color="inherit"
@@ -124,7 +128,7 @@ export default function HorizontalLinearStepper(props: ISteps) {
               {activeStep === steps.length - 1 ? "Finish" : "Next"}
             </Button>
           </Box>
-        </React.Fragment>
+        </div>
       )}
     </Box>
   );
