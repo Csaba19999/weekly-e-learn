@@ -92,7 +92,7 @@ export default function HorizontalLinearStepper(props: ISteps) {
       ) : (
         <div>
           <Box sx={{ display: "flex", flexDirection: "column" }}>
-            <span className="w-full text-3xl text-neutral-800 font-semibold px-2 mx-2 py-10">
+            <span className="w-full text-3xl text-neutral-800 font-semibold px-2 mx-2 py-10 whitespace-pre-line">
               {steps[activeStep].label}
             </span>
             <span className="px-4">{steps[activeStep].element}</span>
