@@ -44,7 +44,11 @@ const steps = [
         </b>
         {` Indeed, more complex tasks such as visualization and self-suggestion can be highly effective when one is able to reach a state of peaceful relaxation. Through focused attention and the power of suggestion, individuals can learn to tap into the deeper resources of their own subconscious minds, unlocking their potential for personal growth and transformation. ✨
 
-But it is important to remember that these skills require patience and practice, and that progress may come gradually over time. With the right mindset, however, anyone can learn to master the art of relaxation and meditation, unlocking the full potential of their own inner resources and achieving a greater sense of well-being and fulfillment in their lives. <b>Just by doing these short exercises day by day, you will be able to handle stress much better in your life, and feel more at ease.</b>`}
+But it is important to remember that these skills require patience and practice, and that progress may come gradually over time. With the right mindset, however, anyone can learn to master the art of relaxation and meditation, unlocking the full potential of their own inner resources and achieving a greater sense of well-being and fulfillment in their lives. `}
+        <b>
+          Just by doing these short exercises day by day, you will be able to
+          handle stress much better in your life, and feel more at ease.
+        </b>
         <Image
           src={"/No_image_available.svg.png"}
           width={300}
