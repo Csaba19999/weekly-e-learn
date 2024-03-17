@@ -50,7 +50,7 @@ But it is important to remember that these skills require patience and practice,
           handle stress much better in your life, and feel more at ease.
         </b>
         <Image
-          src={"/No_image_available.svg.png"}
+          src={"/devider.svg"}
           width={300}
           height={200}
           alt="kép----------------------------------------------------------------------------------------------------------------------------------------------------kép"
