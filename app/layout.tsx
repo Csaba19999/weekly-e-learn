@@ -17,10 +17,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className + " bg-[#f3fdfd]"}>
-        <h1 className="ml-auto w-min text-5xl text-neutral-800 font-bold p-6 m-4 border-2 border-neutral-600">
-          Relaxation <br />
-          self coach
-        </h1>
+        <div className="flex justify-center md:justify-end">
+          <div className="flex flex-col items-center">
+            <h1 className="m-4 w-min text-5xl text-neutral-800 font-bold p-6 border-2 border-neutral-600">
+              Relaxation <br />
+              self coach
+            </h1>
+            <a href="mailto:relaxationselfcoach@gmail.com">
+              @relaxationselfcoach
+            </a>
+          </div>
+        </div>
+
         {children}
       </body>
     </html>
