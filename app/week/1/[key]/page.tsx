@@ -24,7 +24,7 @@ const finish = (
       improved! <br />
       <a
         className="text-blue-500 font-normal underline"
-        href="https://docs.google.com/forms/d/1guoUR9B_d6vI3BHOfkWCg6xn0uxKAfrbR9oJg45ZXCQ/edit"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfpWIP4Rjf8YGibGOU4AI3sXT-T-Qa6O9rc4AbQPlmywiQRpg/viewform?usp=sf_link"
       >
         I share my experience
       </a>

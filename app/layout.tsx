@@ -24,7 +24,7 @@ export default function RootLayout({
               self coach
             </h1>
             <a href="mailto:relaxationselfcoach@gmail.com">
-              @relaxationselfcoach
+              relaxationselfcoach@gmail.com
             </a>
           </div>
         </div>
