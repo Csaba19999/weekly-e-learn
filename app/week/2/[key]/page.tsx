@@ -1,6 +1,5 @@
 import VideoWatchStep from "@/component/stepper/VideoWatchStep/VideoWatchStep";
 import HorizontalLinearStepper from "@/component/stepper/stepper";
-import Image from "next/image";
 
 export default function WeekOne() {
   return (
@@ -38,10 +37,10 @@ const steps = [
     label:
       "Welcome to the second week of the relaxation programme! We hope that you found the previous week's materials useful and that you are feeling the change in your life, feeling a more balanced life is waiting for you!",
     element: (
-      <div>
+      <span>
         <p>
           This week we will continue with the relaxation materials. You'll be
-          introduced to techniques and audio cues such as{" "}
+          introduced to techniques and audio cues such as
           <b>"Happy place", "Gratitude", "Safe place"</b> and you'll also hear
           audio to help you sleep!
         </p>
@@ -50,7 +49,7 @@ const steps = [
           We are happy to have you here! It's huge to do so much for yourself!
           Your perseverance is amazing!
         </p>
-      </div>
+      </span>
     ),
   },
   {
