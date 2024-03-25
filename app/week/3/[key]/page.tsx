@@ -16,7 +16,7 @@ export default function WeekOne() {
 const finish = (
   <div>
     <div className="w-full text-xl text-neutral-800 font-semibold px-2 mx-2 py-10">
-      <p>
+      <p className="text-3xl">
         Fantastic work this week too! You've dedicated time to your mental
         health and that really needs to be celebrated. Your perseverance and
         commitment to the programme is amazing! We hope that you have become a
