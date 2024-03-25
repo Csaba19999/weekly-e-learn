@@ -64,7 +64,7 @@ const steps = [
       <span>
         <p>
           This week we will continue with the relaxation materials. You'll be
-          introduced to techniques and audio cues such as
+          introduced to techniques and audio cues such as{" "}
           <b>"Happy place", "Gratitude", "Safe place"</b> and you'll also hear
           audio to help you sleep!
         </p>
