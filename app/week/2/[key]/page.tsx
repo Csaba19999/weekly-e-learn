@@ -79,11 +79,11 @@ const steps = [
     ),
   },
   {
-    label: "Relaxation self coach: IV. module",
+    label: "IV. Finding Comfort and Joy in Your Inner Happy Place",
     element: <VideoWatchStep src="https://youtu.be/eHZUItwQpnY" />,
   },
   {
-    label: `Congratulations! You've reached the end of the fourth module in our program, and we're genuinely thrilled to see your dedication and progress toward your well-being. Remember, every time you participate in mindfulness exercises, you're actively nurturing your health and joy. Keep up the fantastic effort!`,
+    label: `Congratulations! You've reached the end of the fourth module in our program, and we're genuinely thrilled to see your dedication and progress toward your well-being. Remember, every time you participate in these exercises, you're actively nurturing your health and joy. Keep up the fantastic effort!`,
     element: (
       <div>
         <p>
@@ -107,13 +107,15 @@ const steps = [
           rewire our brain for happiness.
         </p>
         <br />
-        Practice Happy Place and Gratitude for the next two days, then continue
-        with the next module.
+        <p className="font-semibold italic">
+          Practice Happy Place and Gratitude for the next two days, then
+          continue with the next module.
+        </p>
       </div>
     ),
   },
   {
-    label: "Relaxation self coach: V. module",
+    label: "V. Seeking Safety in Your Personal Sanctuary",
     element: <VideoWatchStep src="https://youtu.be/NWpb_nrU6FI" />,
   },
   {
@@ -142,13 +144,15 @@ const steps = [
           for joy, even in challenging times.
         </p>
         <br />
-        Practice the Safe Space exercise over the next two days and then
-        continue with the next module.
+        <p className="font-semibold italic">
+          Practice the Safe Space exercise over the next two days and then
+          continue with the next module.
+        </p>
       </div>
     ),
   },
   {
-    label: "Relaxation self coach: VI. module",
+    label: "VI. Embracing Imperfections for Deep Self-Love",
     element: <VideoWatchStep src="https://youtu.be/6P1tWP-FipQ" />,
   },
 ];

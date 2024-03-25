@@ -56,13 +56,19 @@ const steps = [
       <div>
         <p>
           This week we have a total of 4 modules for you, similar in length to
-          previous weeks. Several of the topics may be familiar from week 1 and
-          week 2, as we have again prepared audio material to help you fall
-          asleep, progressive muscle relaxation, but in addition to these we
-          have brought you <b>Imaginal exposure</b> exercise,{" "}
-          <b>The Power of Self-Confidence</b>
-          and <b>Inner coach</b> as new additions! We hope you will enjoy these
-          exercises too, they have many positive effects on you!
+          previous weeks.This week, we're gonna help you boost your confidence
+          by tackling a fear you've been dealing with and tapping into your
+          inner strengths. Our brains don’t know the difference between what we
+          imagine and what truly is. Therefore, if we have any situation in our
+          life that is causing us an excessive amount of fear or anxiety, we can
+          start facing it by encountering it first within our minds. All those
+          exercises you've been doing? They're gonna come in handy for
+          overcoming that pesky fear. It's all about emotion regulation, and by
+          now, you are becoming a master of it. It's time to shake things up and
+          deal with what's been bugging you. Take a few moments to think about
+          something that's been making you anxious lately. We'll guide you
+          through facing it in the following modules. Ready to dive in? Let's do
+          this!
         </p>
         <br />
         <p>Let's get started!</p>
@@ -70,7 +76,7 @@ const steps = [
     ),
   },
   {
-    label: "Relaxation self coach: VII. module",
+    label: "VII. Confronting Fears through Imaginal Exposure",
     element: <VideoWatchStep src="https://youtu.be/7PDZU3b_DjY" />,
   },
   {
@@ -80,15 +86,12 @@ const steps = [
         <p>
           <b>Using Imaginal Exposure</b>
           <br />
-          Our brain doesn’t know the difference between what we imagine and what
-          truly is. Therefore, if we have any situation in our life that is
-          causing us an excessive amount of fear or anxiety, we can start facing
-          it by encountering it first within our mind. Create a list of things
-          or situations that make you stressed, but you could have a more
-          fulfilling life facing them. For example, are you afraid to go to that
-          class for the first time? Speaking in front of people freaks you out?
-          You would love to travel to new places, but are scared to take the
-          plane?
+          Going through these situations with Imaginal Exposure by imagining
+          them first will help ease your fear to a level where you'll be able to
+          face them better in real life. And whenever you find yourself in the
+          real-life situation itself, remember to use any of the techniques
+          you've acquired for emotion regulation, such as progressive muscle
+          relaxation, to get yourself back in balance.
         </p>
         <br />
         <p>
@@ -100,13 +103,20 @@ const steps = [
           you will automatically start relaxing.
         </p>
         <br />
-        Practice Imaginal Exposure and Progressive Muscle Relaxation exercises
-        over the next two days and then continue with the next module.
+        <p className="font-semibold italic">
+          Practice Imaginal Exposure and Progressive Muscle Relaxation exercises
+          over the next two days and then continue with the next module.
+        </p>
+        <p>
+          Now, let’s bring a situation to your mind that has been making you
+          anxious lately. It can be something you've worked with previously, or
+          you can choose to work on something else.
+        </p>
       </div>
     ),
   },
   {
-    label: "Relaxation self coach: VIII. module",
+    label: "VIII. Visualizing Your Ideal Life",
     element: <VideoWatchStep src="https://youtu.be/u9M6XywHZH4" />,
   },
   {
@@ -138,7 +148,7 @@ const steps = [
     ),
   },
   {
-    label: "Relaxation self coach: IX. module",
+    label: "IX.  Battle All Your Fears",
     element: <VideoWatchStep src="https://youtu.be/2koNcceU7Tw" />,
   },
   {
@@ -146,26 +156,11 @@ const steps = [
     element: (
       <div>
         <p>
-          <b>Using Imaginal Exposure </b>
-          <br />
-          Our brain lacks the ability to discern between imagined scenarios and
-          actual experiences. Hence, when faced with situations inducing
-          excessive fear or anxiety, we can initiate confrontation by first
-          encountering them within our imagination. Compile a list of
-          stress-inducing circumstances or scenarios that, if addressed, could
-          lead to a more fulfilling life. For instance, are you anxious about
-          attending a new class? Does the thought of public speaking trigger
-          distress? Perhaps you harbor a desire to explore new destinations but
-          fear boarding a plane.
-        </p>
-        <br />
-        <p>
-          <b>Relaxing Your Muscles </b>
-          <br />
-          Amidst the aforementioned situations, you can cultivate a sense of
-          calm and control by employing the progressive muscle relaxation
-          exercise. Simply tense your muscles for a brief duration, and
-          relaxation will naturally ensue.
+          By facing your fears first within, you can now handle them better in
+          real life. Don’t forget: it’s not important to avoid fearing something
+          just to feel stronger than that fear. Practice these exercises
+          whenever you need, and we are looking forward to see you on our last
+          module to find deep inner guidance.
         </p>
         <br />
         Practice Imaginal Exposure and Progressive Muscle Relaxation exercises
@@ -174,7 +169,7 @@ const steps = [
     ),
   },
   {
-    label: "Relaxation self coach: X. module",
+    label: "X. Become Your Own Guru",
     element: <VideoWatchStep src="https://youtu.be/TymwqxfoROY" />,
   },
 ];

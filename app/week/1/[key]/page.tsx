@@ -87,15 +87,9 @@ But it is important to remember that these skills require patience and practice,
         />
         {`
 
-First, find a quiet and peaceful place... It could be a room in your home or a serene outdoor space... The important thing is that it feels soothing to you... You don't need to eliminate all sounds, but choose a place where you can be comfortable and feel safe. Once you've found your spot, get into a comfortable position... You may want to lie down on your back or find a comfortable chair to sit in... Whatever position you choose, make sure you feel relaxed and at ease. Now that you're comfortable, let's explore different relaxation techniques. There are various methods that you can use to induce relaxation. One common technique is to `}
-        <b>focus on your breathing.</b>
-        {` Let's try this now. You can start by taking a deep breath in through your nose (3 seconds) and exhaling slowly through your mouth (4 seconds). Pay attention to your breath, and let your body relax with each exhale... Another technique is to `}
-        <b>focus on your body and relax your muscles systematically.</b>
-        {` You may start with your feet and work your way up to your head. You can also try repeating a word or phrase that reminds you of a peaceful place or feeling. This technique is called a `}
-        <b>mantra</b>
-        {`, and it can help you quiet your mind and focus on relaxation. In addition to these, you will be introduced to a number of other techniques during the programme. 🌟
+First, find a quiet and peaceful place... It could be a room in your home or a serene outdoor space... The important thing is that it feels soothing to you... You don't need to eliminate all sounds, but choose a place where you can be comfortable and feel safe. Once you've found your spot, get into a comfortable position... You may want to lie down on your back or find a comfortable chair to sit in... Whatever position you choose, make sure you feel relaxed and at ease. Now that you're comfortable, let's explore different relaxation techniques. There are various methods that you can use to induce relaxation.
 
-During our program, we will guide you through all of these techniques so that you can choose the one that resonates with you the most or combine them. Remember, this is your time to relax and unwind, so choose the method that feels most comfortable to you. I hope this session has provided you with a solid foundation for exploring the practice of relaxation and meditation. Remember, the `}
+During our program, we will guide you through all of these techniques so that you can choose the one that resonates with you the most or combine them. Remember, this is your time to relax and unwind, so choose the method that feels most comfortable to you. Remember, the `}
         <b>
           key to success is consistent practice and a willingness to be patient
           with yourself
@@ -118,12 +112,12 @@ Enjoy the journey of self-discovery and personal growth as you explore the depth
     ),
   },
   {
-    label: "Relaxation self coach: I. module",
+    label: "I. Facing Anxiety with Progressive Muscle Relaxation",
     element: <VideoWatchStep src="https://youtu.be/UvfmeLGPi_M" />,
   },
   {
     label: `You did it! You completed the first module! We are thrilled to see your
-    progress and dedication. Remember, every time you practice mindfulness,
+    progress and dedication. Remember, every time you practice,
     you are investing in your well-being. Keep up the great work!`,
     element: (
       <span>
@@ -165,7 +159,7 @@ Enjoy the journey of self-discovery and personal growth as you explore the depth
           difference in healing your nervous system.
         </p>
         <br />
-        <p>
+        <p className="font-semibold italic">
           Practice the progressive muscle relaxation exercise for the following
           two days, then continue to the next module.
         </p>
@@ -173,11 +167,11 @@ Enjoy the journey of self-discovery and personal growth as you explore the depth
     ),
   },
   {
-    label: "Relaxation self coach: II. module",
+    label: "II. Techniques for Emotional Regulation",
     element: <VideoWatchStep src="https://youtu.be/5KniEQ3gxM0" />,
   },
   {
-    label: `Congratulations! You've successfully completed the second module of our program, and we're truly excited to witness your progress and commitment to your well-being. It's important to recognize that each time you engage in mindfulness practices, you're actively investing in your overall health and happiness. Keep up the excellent work!`,
+    label: `Congratulations! You've successfully completed the second module of our program, and we're truly excited to witness your progress and commitment to your well-being. It's important to recognize that each time you engage in relaxational practices, you're actively investing in your overall health and happiness. Keep up the excellent work!`,
     element: (
       <div>
         <p>
@@ -187,9 +181,10 @@ Enjoy the journey of self-discovery and personal growth as you explore the depth
           you found most beneficial? Different techniques work for different
           individuals, and the context may also influence their efficacy.
           Therefore, keep trying them to find what suits you best and to enhance
-          your emotional regulation toolbox. Mastering Your Emotions
+          your emotional regulation toolbox. 
         </p>
         <br />
+        <p><b>Mastering Your Emotions</b></p>
         As you practice these exercises, you'll feel more in control of your
         feelings. No matter what life throws your way, having the skills to find
         your emotional balance will make everything feel more manageable.
@@ -219,7 +214,7 @@ Enjoy the journey of self-discovery and personal growth as you explore the depth
           you are feeling.
         </p>
         <br />
-        <p>
+        <p className="font-semibold italic">
           Practice these relaxation exercises for the next two days and then
           continue with the next module.
         </p>
@@ -227,7 +222,7 @@ Enjoy the journey of self-discovery and personal growth as you explore the depth
     ),
   },
   {
-    label: "Relaxation self coach: III. module",
+    label: "III. Embracing Mindfulness and Acceptance",
     element: (
       <VideoWatchStep src="https://www.youtube.com/watch?v=JmQhQnLzvXk" />
     ),
