@@ -44,6 +44,7 @@ const finish = (
       You can also practise progressive muscle relaxation and embracing
       imperfection until next week's session.
     </p>
+    <br />
     <p>
       We hope you found the videos useful. If you would like to, you can share
       with us your experience, what you liked about it or how you will be able
@@ -124,9 +125,7 @@ Enjoy the journey of self-discovery and personal growth as you explore the depth
   {
     label: `You did it! You completed the first module! We are thrilled to see your
     progress and dedication. Remember, every time you practice mindfulness,
-    you are investing in your well-being. Keep up the great work!
-    
-    We recommend that you wait a day or two before starting the next module, but in the meantime you can practice the exercises from the previous module again. Listen to your own inner world and go at a pace that is comfortable for you, even if it's a few times a week or all the days of the week!`,
+    you are investing in your well-being. Keep up the great work!`,
     element: (
       <span>
         <p>
@@ -179,8 +178,7 @@ Enjoy the journey of self-discovery and personal growth as you explore the depth
     element: <VideoWatchStep src="https://youtu.be/5KniEQ3gxM0" />,
   },
   {
-    label: `Congratulations! You've successfully completed the second module of our program, and we're truly excited to witness your progress and commitment to your well-being. It's important to recognize that each time you engage in mindfulness practices, you're actively investing in your overall health and happiness. Keep up the excellent work!
-    \n\nWe recommend that you wait a day or two before starting the next module, but in the meantime you can practice the exercises from the previous module again. Listen to your own inner world and go at a pace that is comfortable for you, even if it's a few times a week or all the days of the week!`,
+    label: `Congratulations! You've successfully completed the second module of our program, and we're truly excited to witness your progress and commitment to your well-being. It's important to recognize that each time you engage in mindfulness practices, you're actively investing in your overall health and happiness. Keep up the excellent work!`,
     element: (
       <div>
         <p>
