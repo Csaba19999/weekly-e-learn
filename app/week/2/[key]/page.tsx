@@ -40,12 +40,14 @@ const finish = (
         our imperfections that make us human and connect us to others.
       </p>
       <br />
-      You can practice this imagination exercise until next week's session. We
-      hope you found the videos useful. If you would like to, you can share with
-      us your experience, what you liked about it or how you will be able to use
-      it in your everyday life! We are always happy to see the lives of others
-      improved!
-      <br />
+      <p>
+        You can practice this imagination exercise until next week's session.{" "}
+        <br /> <br />
+        We hope you found the videos useful. If you would like to, you can share
+        with us your experience, what you liked about it or how you will be able
+        to use it in your everyday life! We are always happy to see the lives of
+        others improved!
+      </p>
       <a
         className="text-blue-500 font-normal underline"
         href="https://docs.google.com/forms/d/e/1FAIpQLSfpWIP4Rjf8YGibGOU4AI3sXT-T-Qa6O9rc4AbQPlmywiQRpg/viewform?usp=sf_link"
