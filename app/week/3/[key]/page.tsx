@@ -40,7 +40,7 @@ const finish = (
 
 const steps = [
   {
-    label: null,
+    label: "",
     element: (
       <div>
         <p>
