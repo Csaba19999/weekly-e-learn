@@ -14,11 +14,12 @@ export default function WeekOne() {
 }
 
 const finish = (
-  <div>
-    <p className="w-full text-3xl text-neutral-800 font-semibold px-2 mx-2 py-10">
+  <div className="w-full text-lg text-neutral-800 px-2 mx-2 py-10">
+    <p className="text-3xl font-semibold">
       Great progress this week! You have taken time for yourself and your mental
       health, be really proud of yourself, as proud as we are of you!
     </p>
+    <br />
     <p>
       <b>Welcoming Thoughts and Feelings</b>
       <br />
@@ -104,9 +105,7 @@ During our program, we will guide you through all of these techniques so that yo
 Enjoy the journey of self-discovery and personal growth as you explore the depths of relaxation and inner peace! ⭐️`}
         <br />
         <br />
-        <p>
-          <b>How to Get the Best Out of This Experience?</b>
-        </p>
+        <b>How to Get the Best Out of This Experience?</b>
         <br />
         If you want to maximize the benefits of our relaxation program, we
         recommend that you practice the exercises daily. You don’t need to spend
