@@ -51,17 +51,15 @@ const finish = (
 
 const steps = [
   {
-    label: "",
+    label: `Welcome to the third and final week of the relaxation programme! We hope you found the previous week's material useful! `,
     element: (
       <div>
         <p>
-          Welcome to the third and final week of the relaxation programme! We
-          hope you found the previous week's material useful! This week we have
-          a total of 4 modules for you, similar in length to previous weeks.
-          Several of the topics may be familiar from week 1 and week 2, as we
-          have again prepared audio material to help you fall asleep,
-          progressive muscle relaxation, but in addition to these we have
-          brought you <b>Imaginal exposure</b> exercise,{" "}
+          This week we have a total of 4 modules for you, similar in length to
+          previous weeks. Several of the topics may be familiar from week 1 and
+          week 2, as we have again prepared audio material to help you fall
+          asleep, progressive muscle relaxation, but in addition to these we
+          have brought you <b>Imaginal exposure</b> exercise,{" "}
           <b>The Power of Self-Confidence</b>
           and <b>Inner coach</b> as new additions! We hope you will enjoy these
           exercises too, they have many positive effects on you!
