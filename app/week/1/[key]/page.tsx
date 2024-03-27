@@ -41,7 +41,7 @@ const finish = (
       responses; I am secure within myself."
     </p>
     <br />
-    <p>
+    <p className="font-semibold italic">
       You can also practise progressive muscle relaxation and embracing
       imperfection until next week's session.
     </p>
@@ -181,16 +181,19 @@ Enjoy the journey of self-discovery and personal growth as you explore the depth
           you found most beneficial? Different techniques work for different
           individuals, and the context may also influence their efficacy.
           Therefore, keep trying them to find what suits you best and to enhance
-          your emotional regulation toolbox. 
+          your emotional regulation toolbox.
         </p>
         <br />
-        <p><b>Mastering Your Emotions</b></p>
+        <p>
+          <b>Mastering Your Emotions</b>
+        </p>
         As you practice these exercises, you'll feel more in control of your
         feelings. No matter what life throws your way, having the skills to find
         your emotional balance will make everything feel more manageable.
         Building this solid foundation within yourself is crucial, ensuring that
         no matter what changes, you'll always have your own back. This will make
         you be able to keep going for the life you desire.
+        <br />
         <p>
           <b> Crafting Your Emotion Toolbox</b>
           <br />

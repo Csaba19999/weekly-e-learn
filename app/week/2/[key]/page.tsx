@@ -40,7 +40,7 @@ const finish = (
         our imperfections that make us human and connect us to others.
       </p>
       <br />
-      <p>
+      <p className="font-semibold italic">
         You can practice this imagination exercise until next week's session.{" "}
         <br /> <br />
         We hope you found the videos useful. If you would like to, you can share

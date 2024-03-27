@@ -56,7 +56,7 @@ const steps = [
       <div>
         <p>
           This week we have a total of 4 modules for you, similar in length to
-          previous weeks.This week, we're gonna help you boost your confidence
+          previous weeks. This week, we're gonna help you boost your confidence
           by tackling a fear you've been dealing with and tapping into your
           inner strengths. Our brains don’t know the difference between what we
           imagine and what truly is. Therefore, if we have any situation in our
@@ -86,6 +86,17 @@ const steps = [
         <p>
           <b>Using Imaginal Exposure</b>
           <br />
+          Our brain doesn’t know the difference between what we imagine and what
+          truly is. Therefore, if we have any situation in our life that is
+          causing us an excessive amount of fear or anxiety, we can start facing
+          it by encountering it first within our mind. Create a list of things
+          or situations that make you stressed, but you could have a more
+          fulfilling life facing them. For example, are you afraid to go to that
+          class for the first time? Speaking in front of people freaks you out?
+          You would love to travel to new places, but are scared to take the
+          plane?
+          <br />
+          <br />
           Going through these situations with Imaginal Exposure by imagining
           them first will help ease your fear to a level where you'll be able to
           face them better in real life. And whenever you find yourself in the
@@ -106,11 +117,6 @@ const steps = [
         <p className="font-semibold italic">
           Practice Imaginal Exposure and Progressive Muscle Relaxation exercises
           over the next two days and then continue with the next module.
-        </p>
-        <p>
-          Now, let’s bring a situation to your mind that has been making you
-          anxious lately. It can be something you've worked with previously, or
-          you can choose to work on something else.
         </p>
       </div>
     ),
@@ -142,8 +148,17 @@ const steps = [
           your values and desires, even in the presence of fear.
         </p>
         <br />
-        Practice The Power of Self-Confidence exercise over the next two days
-        and then continue with the next module.
+        <p className="font-semibold italic">
+          Practice The Power of Self-Confidence exercise over the next two days
+          and then continue with the next module.
+        </p>
+        <br />
+        <br />
+        <p>
+          Now, let’s bring a situation to your mind that has been making you
+          anxious lately. It can be something you've worked with previously, or
+          you can choose to work on something else.
+        </p>
       </div>
     ),
   },
@@ -163,8 +178,10 @@ const steps = [
           module to find deep inner guidance.
         </p>
         <br />
-        Practice Imaginal Exposure and Progressive Muscle Relaxation exercises
-        over the next two days and then continue with the next module.
+        <p className="font-semibold italic">
+          Practice Imaginal Exposure and Progressive Muscle Relaxation exercises
+          over the next two days and then continue with the next module.
+        </p>
       </div>
     ),
   },
